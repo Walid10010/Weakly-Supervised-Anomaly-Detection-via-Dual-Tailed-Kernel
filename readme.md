@@ -8,7 +8,7 @@ This repository supports benchmarking against multiple baseline models (DeepSAD,
 https://icml.cc/virtual/2025/poster/44385
 ---
 
-## 📦 Repository Structure
+##  Repository Structure
 
 ```
 ├── WSAD_DT.py          # WSAD-DT model: training and testing functions
@@ -34,7 +34,7 @@ pip install torch pyod pandas tqdm
 
 ---
 
-## 🚀 Running Experiments
+##  Running Experiments
 
 The main entry point is **`run_exp.py`**, which automatically iterates through available datasets and algorithms.
 
@@ -56,7 +56,7 @@ git clone https://github.com/Minqi824/ADBench.git
 
 
 
-## 🧩 Parameters and Settings
+##  Parameters and Settings
 
 Although the script does not use CLI arguments, internal parameters can be adjusted directly inside `run_exp.py`:
 
@@ -73,7 +73,7 @@ Although the script does not use CLI arguments, internal parameters can be adjus
 
 ---
 
-## 🧮 Metrics
+##  Metrics
 
 Two evaluation metrics are reported for each dataset:
 
@@ -84,7 +84,7 @@ Both are averaged over multiple seeds and random splits.
 
 ---
 
-## 📊 Output
+##  Output
 
 After execution, you’ll see output like:
 
@@ -100,7 +100,7 @@ This will store results under `icml_results/`.
 ---
 
 
-## 🧠 How WSAD-DT Works
+## How WSAD-DT Works
 
 1. **Dual-tailed kernel loss** — combines a light-tailed Gaussian and a heavy-tailed Student-t kernel
 
