@@ -56,20 +56,7 @@ git clone https://github.com/Minqi824/ADBench.git
 
 
 
-##  Parameters and Settings
 
-Although the script does not use CLI arguments, internal parameters can be adjusted directly inside `run_exp.py`:
-
-| Parameter             | Description                                    | Default       |
-| --------------------- | ---------------------------------------------- | ------------- |
-| `label_percentage`    | Ratio of labeled anomalies                     | `0.05`        |
-| `mislabel_percentage` | Ratio of mislabeled normal samples             | `0.0`         |
-| `contamination_ratio` | Ratio of unlabeled anomalies added to training | `0.0`         |
-| `batch_size`          | Training batch size                            | `64`          |
-| `seeds`               | Random seeds used                              | `[100, 1000]` |
-| `ss`                  | Train/test random split seeds                  | `[1, 5, 10]`  |
-
-**Note:** You can modify these directly in the script for experiments (e.g., increase labeled anomalies or seeds).
 
 ---
 
