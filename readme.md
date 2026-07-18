@@ -100,3 +100,25 @@ This will store results under `icml_results/`.
 
 
 ---
+
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@InProceedings{pmlr-v267-durani25a,
+  title     = {Weakly Supervised Anomaly Detection via Dual-Tailed Kernel},
+  author    = {Durani, Walid and Nitzl, Tobias and Plant, Claudia and B\"{o}hm, Christian},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning},
+  pages     = {14833--14866},
+  year      = {2025},
+  editor    = {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry},
+  volume    = {267},
+  series    = {Proceedings of Machine Learning Research},
+  month     = {13--19 Jul},
+  publisher = {PMLR},
+  pdf       = {https://raw.githubusercontent.com/mlresearch/v267/main/assets/durani25a/durani25a.pdf},
+  url       = {https://proceedings.mlr.press/v267/durani25a.html}
+}
+```
