@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wsad-dt"
+version = "1.0.0"
+description = "WSAD-DT: Weakly Supervised Anomaly Detection via Dual-Tailed Kernel (ICML 2025)"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Walid Durani", email = "durani@dbs.ifi.lmu.de"}]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scikit-learn>=1.3", "torch>=2.0"]
+keywords = ["anomaly-detection", "weakly-supervised", "outlier-detection", "deep-learning", "kernel"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Repository = "https://github.com/Walid10010/Weakly-Supervised-Anomaly-Detection-via-Dual-Tailed-Kernel"
+Paper = "https://proceedings.mlr.press/v267/durani25a.html"
+
+[tool.setuptools]
+packages = ["wsad_dt"]

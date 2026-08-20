@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use WSAD-DT, please cite the ICML 2025 paper."
+title: "WSAD-DT: Weakly Supervised Anomaly Detection via Dual-Tailed Kernel"
+authors:
+  - family-names: Durani
+    given-names: Walid
+  - family-names: Nitzl
+    given-names: Tobias
+  - family-names: Plant
+    given-names: Claudia
+  - family-names: "Böhm"
+    given-names: Christian
+preferred-citation:
+  type: conference-paper
+  title: "Weakly Supervised Anomaly Detection via Dual-Tailed Kernel"
+  collection-title: "Proceedings of the 42nd International Conference on Machine Learning (PMLR 267)"
+  year: 2025
+  start: 14833
+  end: 14866
+  url: "https://proceedings.mlr.press/v267/durani25a.html"
+  authors:
+    - family-names: Durani
+      given-names: Walid
+    - family-names: Nitzl
+      given-names: Tobias
+    - family-names: Plant
+      given-names: Claudia
+    - family-names: "Böhm"
+      given-names: Christian
